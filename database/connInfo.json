@@ -1,0 +1,44 @@
+[
+  {
+    "key": "智慧公交",
+    "dbtype": "oracle",
+    "connstr": "nicai/123456@10.10.10.10:1521/ORCL",
+    "selecttype": "table",
+    "selectstr": "like",
+    "selectkeystr": "BUS%"
+  },
+  {
+    "key": "公共自行车",
+    "dbtype": "oracle",
+    "connstr": "nicai/123456@10.10.10.10:1521/ORCL",
+    "selecttype": "table",
+    "selectstr": "like",
+    "selectkeystr": "BICYCLE%"
+  },
+  {
+    "key": "安监局",
+    "dbtype": "mysql",
+    "host": "10.10.10.10",
+    "port": 3306,
+    "user": "nicai",
+    "passwd": "123456",
+    "charset": "utf8",
+    "selecttype": "table",
+    "selectstr": "like",
+    "dbschema": "statistics_data",
+    "selectkeystr": "ajj%"
+  },
+  {
+    "key": "百度交通",
+    "dbtype": "mysql",
+    "host": "10.10.10.2",
+    "port": 3306,
+    "user": "nicai",
+    "passwd": "123456",
+    "charset": "utf8",
+    "selecttype": "table",
+    "selectstr": "like",
+    "dbschema": "statistics_data",
+    "selectkeystr": "bdu%"
+  }
+]
