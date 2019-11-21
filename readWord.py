@@ -71,8 +71,7 @@ def getdirlist(basedir):
 
 
 def main():
-    # path = r'D:\0.shenma\0.Liaocheng\聊城智慧城市维护记录\2019.11\LC_维护_智慧城市_系统维护记录.20191120.docx'
-    basedir = r'D:\0.shenma\0.Liaocheng\聊城智慧城市维护记录'
+    basedir = r'D:\0.shenma\0.xxcity\xx智慧城市维护记录'
     getfilecontent(basedir)
 
 
